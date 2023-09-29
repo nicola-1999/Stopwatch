@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btnStart {
+  margin-top: 5%;
+  padding: 20px;
+  margin-right: 2%;
+  /* background-color: aquamarine; */
+  border-color: #282c34;
+  border-radius: 25px;
+  width: 8%;
+  height: 0%;
+}
+
+.title {
+  margin-bottom: 5%;
+}
+
+.displayDate {
+  margin-top: 50px;
+}
+
+.left {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.divSelectCat {
+  margin: auto;
+}
+.selectCat {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.selectImei {
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.timer {
+  align-items: center;
+  margin: auto;
+}
+
+.divSubmit {
+  align-items: center;
+}
+
+.btnSubmit {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: lightgreen;
+  border-color: #282c34;
+}
+
+.btnSubmit:hover {
+  background-color: rgb(4, 199, 4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.formGroup {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  width: 600px;
+  margin: auto;
+  margin-top: 70px;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

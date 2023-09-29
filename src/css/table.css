@@ -1,0 +1,20 @@
+.centered-table {
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse; /* Collapse the borders for a solid line */
+  width: 80%; /* Set the desired width */
+}
+
+.centered-table th,
+.centered-table td {
+  border: 1px solid #dddddd; /* Add a border to th and td elements */
+  padding: 8px; /* Add padding for spacing */
+  text-align: left; /* Left-align text within cells */
+}
+
+.centered-table th {
+  background-color: #f2f2f2; /* Set a background color for header cells */
+}
+
+.divTable {
+  margin-top: 100px;
+}

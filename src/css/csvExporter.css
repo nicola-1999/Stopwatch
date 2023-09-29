@@ -1,0 +1,15 @@
+.btnExport {
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #097a10;
+  justify-content: auto;
+  border-color: #282c34;
+  border-radius: 25px;
+  width: 8%;
+  height: 10%;
+}
+
+.btnExport:hover {
+  background-color: rgb(5, 164, 5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
