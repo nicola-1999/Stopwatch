@@ -1,3 +1,8 @@
+# My personal stopwatch
+
+This project is aimed to recording driving tests
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
